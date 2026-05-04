@@ -13,7 +13,7 @@ const Stack = () => {
             <h2 className={styles.sectionTitle}>My Stack</h2>
             <div className={styles.grid}>
                 <div className={`${styles.card} ${styles.techCard}`}>
-                    <h3>Technologies</h3>
+                    <strong>Technologies</strong>
                     <ul>
                         <li><BiLogoJavascript className={styles.icon} />Javascript</li>
                         <li><BiLogoTypescript className={styles.icon} />Typescript</li>
@@ -24,7 +24,7 @@ const Stack = () => {
                 </div>
             
                 <div className={`${styles.card} ${styles.frameworkCard}`}>
-                    <h3>Frameworks</h3>
+                    <strong>Libraries/Frameworks</strong>
                     <ul>
                         <li><FaReact className={styles.icon} />React</li>
                         <li><FaNodeJs className={styles.icon} />Node.js</li>
@@ -33,7 +33,7 @@ const Stack = () => {
                 </div>
             
                 <div className={`${styles.card} ${styles.toolCard}`}>
-                    <h3>Tools</h3>
+                    <strong>Tools</strong>
                     <ul>
                         <li><FaAws className={styles.icon} />AWS</li>
                         <li><FaGitAlt className={styles.icon} />Git</li>
@@ -48,7 +48,7 @@ const Stack = () => {
                 </div>
 
                 <div className={`${styles.card} ${styles.focusCard}`}>
-                    <h3>Database</h3>
+                    <strong>Database</strong>
                     <ul>
                         <li><DiMysql className={styles.icon} />SQL</li>
                         <li><DiPostgresql className={styles.icon} />PostgreSQL</li>
