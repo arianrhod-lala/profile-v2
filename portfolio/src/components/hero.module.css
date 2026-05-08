@@ -2,7 +2,7 @@
     min-height: 100vh;
     display: flex;
     align-items: center;
-    padding-left: 13vw; 
+    padding: 13vw;
     overflow: hidden;
     background: linear-gradient(to right, #ffffff 60%, #FCF1A6 60%);
 }
