@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import Hero from "../components/hero"
 import Stack from "../components/stack"
 import Projects from "../components/projects"
+import About from "../components/about"
 
 const IndexPage = () => {
   return (
@@ -10,6 +11,7 @@ const IndexPage = () => {
       <Hero />
         <Stack />
           <Projects />
+            <About/>
     </Layout>
   )
 }

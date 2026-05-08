@@ -1,0 +1,45 @@
+.aboutSection {
+    padding: 100px 10vw;
+    background-color: #fff;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr; /* Image is slightly smaller than the text block */
+    gap: 60px;
+    align-items: flex-start;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.imageWrapper {
+    width: 100%;
+}
+
+.profileImg {
+    border-radius: 4px; /* Shiyun's images have very slight rounding */
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.title {
+    font-family: 'Lora', serif;
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    margin-bottom: 2rem;
+    color: #1a1a1a;
+}
+
+.textContent p {
+    font-family: 'Roboto Mono', monospace; /* Matching your previous code style */
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 1.5rem;
+}
+
+/* Responsive adjustment for mobile */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}

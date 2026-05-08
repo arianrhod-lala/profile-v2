@@ -12,20 +12,18 @@ const Projects = () => {
         {/* project card 1 */}
         <article className={styles.projectCard}>
           <div className={styles.projectContent}>
-            <h3>Kubo</h3>
-            <p className={styles.tagline}>Direct-to-Consumer E-Commerce for agriculture</p>
+            <h3>Cat Game</h3>
+            <p className={styles.tagline}>Fun weekend project</p>
             <p className={styles.description}>
-              An Information System focusing on vulnerability policies and geolocation 
-              to bridge the gap for local producers.
+              Smol donut eating game as a cat.
             </p>
             <div className={styles.techStack}>
-              <span>REACT NATIVE</span>
-              <span>FIREBASE</span>
-              <span>GEOLOCATION API</span>
+              <span>LUA</span>
+              <span>PICO-8</span>
             </div>
             {/* project links */}
             <div className={styles.projectLinks}>
-              <a href="https://github.com/yourusername/kubo" target="_blank" rel="noreferrer">
+              <a href="https://github.com/arianrhod-lala/cat-game" target="_blank" rel="noreferrer">
                 <FiGithub />
               </a>
               <a href="https://kubo-demo.netlify.app" target="_blank" rel="noreferrer">

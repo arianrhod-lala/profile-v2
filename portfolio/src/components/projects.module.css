@@ -1,5 +1,5 @@
 .projectsSection {
-    padding: 13vw;
+    padding: 80px 13vw;
     background: #fff;
     align-items: center;
 }
@@ -49,6 +49,14 @@
     color: #666;
     font-size: 0.9rem;
     margin-bottom: 20px;
+}
+
+.description {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
 }
 
 .techStack {
