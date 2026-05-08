@@ -23,9 +23,14 @@
 
 .title {
     font-family: 'Lora', serif;
-    font-size: clamp(2.5rem, 6vw, 4rem);
-    margin-bottom: 2rem;
+    font-size: clamp(3rem, 8vw, 5rem);
+    font-weight: 700;
+    margin: 0 0 1rem 0;
+    line-height: 1.1;
     color: #1a1a1a;
+    white-space: nowrap;
+    padding-bottom: 15px;
+    text-align: right; 
 }
 
 .textContent p {
