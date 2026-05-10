@@ -10,8 +10,8 @@ const Certifications = () => {
         
         <div className={styles.badgeCard}>
           <StaticImage 
-            src="../images/asana-cert.png" 
-            alt="Asana Certified"
+            src="../images/asana-admin.png" 
+            alt="Asana Administrator"
             placeholder="blurred"
             className={styles.badgeImage}
           />
@@ -19,8 +19,8 @@ const Certifications = () => {
 
         <div className={styles.badgeCard}>
           <StaticImage 
-            src="../images/aws-cert.png" 
-            alt="AWS Certified"
+            src="../images/asana-workflow.png" 
+            alt="Asana Workflow"
             placeholder="blurred"
             className={styles.badgeImage}
           />
@@ -31,7 +31,7 @@ const Certifications = () => {
             src="../images/datacamp-cert.png" 
             alt="Datacamp Associate Data Scientist"
             placeholder="blurred"
-            className={styles.badgeImage}
+            className={styles.DatacampImage}
           />
         </div>
 
