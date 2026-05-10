@@ -1,11 +1,11 @@
 .aboutSection {
-    padding: 100px 10vw;
+    padding: 80px 13vw;
     background-color: #fff;
 }
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 1.2fr; /* Image is slightly smaller than the text block */
+    grid-template-columns: 1fr 1.2fr; 
     gap: 60px;
     align-items: flex-start;
     max-width: 1100px;
@@ -17,7 +17,7 @@
 }
 
 .profileImg {
-    border-radius: 4px; /* Shiyun's images have very slight rounding */
+    border-radius: 4px; 
     box-shadow: 0 4px 20px rgba(0,0,0,0.08);
 }
 
@@ -34,7 +34,7 @@
 }
 
 .textContent p {
-    font-family: 'Roboto Mono', monospace; /* Matching your previous code style */
+    font-family: 'Roboto Mono', monospace; 
     font-size: 1rem;
     line-height: 1.8;
     color: #444;

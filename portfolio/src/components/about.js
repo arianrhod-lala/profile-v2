@@ -21,18 +21,16 @@ const About = () => {
           <p>
             Currently based in Manila, I am a 3rd-year BSIT student at TUP Manila 
             and a DOST Scholar. I’ve spent the last few years leading academic 
-            initiatives as the Assistant Academics Head for the TUPM-DOST 
-            Scholars' Club.
+            initiatives both inside and outside the university.
           </p>
           <p>
-            I’m always learning, so I've focused my engineering skills on 
-            Cloud Computing with AWS and Data Science. I enjoy building 
-            projects that solve real problems, like e-commerce systems for 
-            agriculture or survival analysis dashboards.
+            I’m always learning, so I've focused my skills on 
+            Data Science and Analytics, while I enjoy building things
+            that I like doing.
           </p>
           <p>
-            I love street food, hanging out with friends, and I'm always 
-            advocating for a good game session or a long walk while traveling.
+            I love going out, hanging out with friends, and I'm always 
+            advocating for a good game session or a long walk while traveling. 
           </p>
         </div>
       </div>

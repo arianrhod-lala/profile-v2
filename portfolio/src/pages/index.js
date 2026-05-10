@@ -5,6 +5,7 @@ import Stack from "../components/stack"
 import Projects from "../components/projects"
 import About from "../components/about"
 import Certifications from "../components/certifications"
+import Contact from "../components/contact"
 
 const IndexPage = () => {
   return (
@@ -14,6 +15,7 @@ const IndexPage = () => {
           <Projects />
             <Certifications />
               <About/>
+                <Contact />
     </Layout>
   )
 }
