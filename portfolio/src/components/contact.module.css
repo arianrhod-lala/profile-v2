@@ -50,20 +50,19 @@
 }
 
 .btnGhost {
-    border: 1px solid #ddd;
+    border: 1px solid var(--clr-olv);
     background: #fff;
     color: #1a1a1a;
 }
 
 .btnFull {
-    border: 1px solid #d9f99d; 
+    border: 1px solid var(--clr-olv);
     background: #d9f99d;
     color: #1a1a1a;
 }
 
 .btnGhost:hover, .btnFull:hover {
-    background-color: #bae962; 
-    border-color: #d9f99d;
+    background-color: var(--clr-lm); 
     transform: translateY(-3px);
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
     color: #1a1a1a;
