@@ -5,14 +5,14 @@ const Hero = () => {
   return (
     <section className={styles.heroWrapper}>
       <div className={styles.content}>
-        <p className={styles.intro}>Hi! </p>
+        <h3 className={styles.intro}>Hi! </h3>
         <h1 className={styles.title}>
           I'm Ian Lester. <br />
           Love anything minimal.
         </h1>
-        <p className={styles.description}>
+        <h3 className={styles.description}>
         I live for some coffee and data. 
-        </p>
+        </h3>
       </div>
     </section>
   )

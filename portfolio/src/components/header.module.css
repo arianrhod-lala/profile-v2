@@ -1,6 +1,5 @@
 .headerWrapper {
-    background: linear-gradient(to right, #ffffff 60%, #FCF1A6 60%);
-    width: 100%;
+    background: linear-gradient(90deg, transparent 65%, rgba(249, 220, 36, .4) 0);
     padding: 0 13vw; 
 }
 
@@ -33,22 +32,12 @@
 }
 
 .navList a:hover {
-    color: #3188b4;
+    color: #6dda32;
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 4px;
 }
 
-.logo a {
-    font-family: 'Lora', serif; 
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #8da4b8; 
-    text-decoration: none;
-    letter-spacing: 2px;
-}
-
-/* Right Thumbnail */
 .thumbnail {
     display: flex;
     align-items: center;
