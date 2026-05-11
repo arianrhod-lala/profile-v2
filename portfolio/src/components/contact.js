@@ -6,7 +6,6 @@ const Contact = () => {
     return (
         <section className={styles.contactSection} id="contact">
                 <h2 className={styles.title}>Get in Touch</h2>
-
                 <div className={styles.container}>
                 <p className={styles.description}>
                 I am currently looking for internships where I can apply

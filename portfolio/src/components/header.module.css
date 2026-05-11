@@ -1,0 +1,60 @@
+.headerWrapper {
+    background: linear-gradient(to right, #ffffff 60%, #FCF1A6 60%);
+    width: 100%;
+    padding: 0 13vw; 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 1em;
+    max-width: 1200px;
+}
+
+.navList {
+    display: flex;
+    gap: 20px;
+}
+
+.navList li {
+    display: inline;
+    padding: 10px;
+}
+
+.navList a {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+    color: #1a1a1a;
+    text-decoration: underline;
+    text-transform: capitalize;
+    transition: color 0.3s ease;
+}
+
+.navList a:hover {
+    color: #3188b4;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+}
+
+.logo a {
+    font-family: 'Lora', serif; 
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #8da4b8; 
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+/* Right Thumbnail */
+.thumbnail {
+    display: flex;
+    align-items: center;
+}
+
+.profileImage {
+    border-radius: 50%; /* Makes the image perfectly round */
+    border: 2px solid rgba(255, 255, 255, 0.5); /* Optional: gives it a subtle border */
+}

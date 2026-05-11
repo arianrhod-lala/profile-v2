@@ -15,6 +15,7 @@ import * as styles from "./layout.module.css"
 const Layout = ({ children }) => {
   return (
     <div>
+      <Header />
       <main>
         {children}
       </main>
@@ -34,7 +35,7 @@ const Layout = ({ children }) => {
               <strong>Gatsby</strong>
             </small>
           </footer>
-        </div>
+      </div>
   )
 }
 
