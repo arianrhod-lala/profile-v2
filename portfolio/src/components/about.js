@@ -7,9 +7,9 @@ const About = () => {
     <section className={styles.aboutSection}>
       <div className={styles.container}>
         <div className={styles.imageWrapper}>
-          {/* Using Gatsby's StaticImage for optimization */}
+          {}
           <StaticImage 
-            src="../images/profile-photo.jpg" 
+            src="../images/profile.png" 
             alt="Ian Lester"
             placeholder="blurred"
             className={styles.profileImg}
@@ -31,6 +31,7 @@ const About = () => {
           <p>
             I love going out, hanging out with friends, and I'm always 
             advocating for a good game session or a long walk while traveling. 
+            (p.s. picture taken from a digicam!)
           </p>
         </div>
       </div>
