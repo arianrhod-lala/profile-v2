@@ -2,7 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import * as styles from "./header.module.css"
-
+import scrollToSection from "./scroll"
 const Header = () => {
   return (
     <div className={styles.headerWrapper}>
@@ -10,16 +10,16 @@ const Header = () => {
         <nav className={styles.navList}>
           <ul>
             <li>
-              <a title="projects" href="/#projects">Projects</a>
+              <a href="#projects" onClick={(e) => scrollToSection(e, "projects")}>Projects</a>
             </li>
             <li>
-              <a title="certifications" href="/#certifications">Certifications</a>
+              <a href="#certifications" onClick={(e) => scrollToSection(e, "certifications")}>Certifications</a>
             </li>
             <li>
-              <a title="about" href="/#about">About</a>
+              <a href="#about" onClick={(e) => scrollToSection(e, "about")}>About</a>
             </li>
             <li>
-              <a title="contact" href="/#contact">Contact</a>
+              <a href="#contact" onClick={(e) => scrollToSection(e, "contact")}>Contact</a>
             </li>
           </ul>
         </nav>

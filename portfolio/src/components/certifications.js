@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Certifications = () => {
   return (
-    <section className={styles.certSection}>
+    <section className={styles.certSection} id="certifications">
       <h2 className={styles.sectionTitle}>Certifications</h2>
       <div className={styles.certGrid}>
         

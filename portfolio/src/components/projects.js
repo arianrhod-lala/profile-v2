@@ -5,7 +5,7 @@ import { FiGithub, FiExternalLink } from "react-icons/fi";
 
 const Projects = () => {
   return (
-    <section className={styles.projectsSection}>
+    <section className={styles.projectsSection} id="projects">
       <h2 className={styles.sectionTitle}>Selected Projects</h2>
       
       <div className={styles.projectsGrid}>
