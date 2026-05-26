@@ -44,6 +44,6 @@
 }
 
 .profileImage {
-    border-radius: 50%; /* Makes the image perfectly round */
-    border: 2px solid rgba(255, 255, 255, 0.5); /* Optional: gives it a subtle border */
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.5); 
 }

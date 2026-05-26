@@ -1,8 +1,8 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import * as styles from "./header.module.css"
 import scrollToSection from "./scroll"
+
 const Header = () => {
   return (
     <div className={styles.headerWrapper}>

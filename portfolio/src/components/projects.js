@@ -1,5 +1,6 @@
 import * as React from "react"
 import * as styles from "./projects.module.css"
+import { StaticImage } from "gatsby-plugin-image"
 import { FiGithub, FiExternalLink } from "react-icons/fi";
 
 
@@ -33,7 +34,7 @@ const Projects = () => {
           </div>
           <div className={styles.projectImage}>
              {/* placeholder picture */}
-             <div className={styles.imagePlaceholder}></div>
+             <div className={styles.image}></div>
           </div>
         </article>
 
@@ -48,21 +49,27 @@ const Projects = () => {
             </p>
             <div className={styles.techStack}>
               <span>PYTHON</span>
-              <span>TABLEAU</span>
+              <span>JAVASCRIPT</span>
               <span>STATISTICAL MODELING</span>
             </div>
             {/* project links */}
             <div className={styles.projectLinks}>
-              <a href="https://github.com/yourusername/kubo" target="_blank" rel="noreferrer">
+              <a href="https://github.com/arianrhod-lala/dialysis_dashboard" target="_blank" rel="noreferrer">
                 <FiGithub />
               </a>
-              <a href="https://kubo-demo.netlify.app" target="_blank" rel="noreferrer">
+              <a href="https://arianrhod-lala.github.io/dialysis_dashboard/" target="_blank" rel="noreferrer">
                 <FiExternalLink />
               </a>
             </div>
           </div>
           <div className={styles.projectImage}>
-             <div className={styles.imagePlaceholder}></div>
+             {}
+              <StaticImage 
+                src="../images/dialysis-dashboard.png" 
+                alt="Ian Lester"
+                placeholder="blurred"
+                className={styles.image}
+              />
           </div>
         </article>
       </div>
