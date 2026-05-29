@@ -100,7 +100,7 @@ const Projects = () => {
           <div className={styles.projectImage}>
              {}
               <StaticImage 
-                src="../images/dialysis-dashboard.png" 
+                src="../images/gym-management.png" 
                 alt="Ian Lester"
                 placeholder="blurred"
                 className={styles.image}
