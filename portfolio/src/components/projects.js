@@ -27,14 +27,19 @@ const Projects = () => {
               <a href="https://github.com/arianrhod-lala/cat-game" target="_blank" rel="noreferrer">
                 <FiGithub />
               </a>
-              <a href="https://kubo-demo.netlify.app" target="_blank" rel="noreferrer">
+              <a href="https://www.pico-8-edu.com/" target="_blank" rel="noreferrer">
                 <FiExternalLink />
               </a>
             </div>
           </div>
           <div className={styles.projectImage}>
-             {/* placeholder picture */}
-             <div className={styles.image}></div>
+             {}
+              <StaticImage 
+                src="../images/cat-game.png" 
+                alt="Ian Lester"
+                placeholder="blurred"
+                className={styles.image}
+              />
           </div>
         </article>
 
