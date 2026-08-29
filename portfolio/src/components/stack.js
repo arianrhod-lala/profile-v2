@@ -4,7 +4,7 @@ import { FaHtml5, FaPython, FaCss3Alt, FaReact, FaNodeJs, FaAws, FaGitAlt, FaDoc
 import { BiLogoTypescript, BiLogoJavascript } from "react-icons/bi" 
 import { RiGatsbyFill, RiSupabaseLine } from "react-icons/ri"
 import { IoLogoTableau, IoLogoVercel } from "react-icons/io5"
-import { SiStrapi, SiMongodb } from "react-icons/si"
+import { SiStrapi, SiMongodb, SiPandas, SiNumpy, SiScikitlearn } from "react-icons/si"
 import { DiPhotoshop, DiIllustrator, DiMysql, DiPostgresql } from "react-icons/di"
 
 const Stack = () => {
@@ -20,7 +20,7 @@ const Stack = () => {
                         <li><FaPython className={styles.icon} />Python</li>
                         <li><FaHtml5 className={styles.icon} />html</li>
                         <li><FaCss3Alt className={styles.icon} />css</li>
-                    </ul>
+                    </ul>   
                 </div>
             
                 <div className={`${styles.card} ${styles.frameworkCard}`}>
@@ -29,6 +29,9 @@ const Stack = () => {
                         <li><FaReact className={styles.icon} />React</li>
                         <li><FaNodeJs className={styles.icon} />Node.js</li>
                         <li><RiGatsbyFill className={styles.icon} />Gatsby.js</li>
+                        <li><SiPandas className={styles.icon} />Pandas</li>
+                        <li><SiNumpy className={styles.icon} />Numpy</li>
+                        <li><SiScikitlearn className={styles.icon} />Scikit-learn</li>
                     </ul>
                 </div>
             
