@@ -146,7 +146,42 @@ const Projects = () => {
                 className={styles.image}
               />
           </div>
-        </article>   
+        </article>
+
+        {/* flyrank ml project */}
+        <article className={styles.projectCard}>
+          <div className={styles.projectContent}>
+            <h3>Google Search Ranking & Discoverability CTR Lane</h3>
+            <p className={styles.tagline}>Machine Learning</p>
+            <p className={styles.description}>
+              Engineered an end-to-end search intelligence ML pipeline using Random Forest regression to predict expected CTR and prioritize high-ROI content refresh opportunities from search telemetry data.
+            </p>
+            <div className={styles.techStack}>
+              <span>PYTHON</span>
+              <span>SQL</span>
+              <span>SCIKIT-LEARN</span>
+              <span>MATPLOTLIB</span>
+            </div>
+            {/* project links */}
+            <div className={styles.projectLinks}>
+              <a href="https://github.com/arianrhod-lala/flyrank-ml" target="_blank" rel="noreferrer">
+                <FiGithub />
+              </a>
+              <a href="https://arianrhod-lala.github.io/flyrank-ml/" target="_blank" rel="noreferrer">
+                <FiExternalLink />
+              </a>
+            </div>
+          </div>
+          <div className={styles.projectImage}>
+             {}
+              <StaticImage 
+                src="../images/flyrank-ml.png" 
+                alt="Ian Lester"
+                placeholder="blurred"
+                className={styles.image}
+              />
+          </div>
+        </article>
       </div>
     </section>
   )
