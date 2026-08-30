@@ -10,7 +10,7 @@ const Projects = () => {
       <h2 className={styles.sectionTitle}>Selected Projects</h2>
       
       <div className={styles.projectsGrid}>
-        {/* project card 1 */}
+        {/* small cat game */}
         <article className={styles.projectCard}>
           <div className={styles.projectContent}>
             <h3>Cat Game</h3>
@@ -43,7 +43,7 @@ const Projects = () => {
           </div>
         </article>
 
-        {/* project card 2 add more if want */}
+        {/* dialysis dashboard*/}
         <article className={styles.projectCard}>
           <div className={styles.projectContent}>
             <h3>Dialysis Survival Analysis</h3>
@@ -78,7 +78,7 @@ const Projects = () => {
           </div>
         </article>
 
-        {/* project card 3 add more if want */}
+        {/* gym management system */}
         <article className={styles.projectCard}>
           <div className={styles.projectContent}>
             <h3>Gym Management System</h3>
@@ -112,6 +112,41 @@ const Projects = () => {
               />
           </div>
         </article>
+
+        {/* isp/telco synthetic data analysis */}
+        <article className={styles.projectCard}>
+          <div className={styles.projectContent}>
+            <h3>ISP/Telco Customer Churn</h3>
+            <p className={styles.tagline}>Data engineering and analysis</p>
+            <p className={styles.description}>
+              A synthetic Philippine ISP customer dataset built equation-first, then analyzed blind to test whether real churn drivers are recoverable from data alone..
+            </p>
+            <div className={styles.techStack}>
+              <span>PYTHON</span>
+              <span>PANDAS</span>
+              <span>SCIKIT-LEARN</span>
+              <span>MATPLOTLIB</span>
+            </div>
+            {/* project links */}
+            <div className={styles.projectLinks}>
+              <a href="https://github.com/arianrhod-lala/eskwelabs-synthetic-data" target="_blank" rel="noreferrer">
+                <FiGithub />
+              </a>
+              <a href="https://arianrhod-lala.github.io/eskwelabs-synthetic-data/" target="_blank" rel="noreferrer">
+                <FiExternalLink />
+              </a>
+            </div>
+          </div>
+          <div className={styles.projectImage}>
+             {}
+              <StaticImage 
+                src="../images/isptelco.png" 
+                alt="Ian Lester"
+                placeholder="blurred"
+                className={styles.image}
+              />
+          </div>
+        </article>   
       </div>
     </section>
   )
