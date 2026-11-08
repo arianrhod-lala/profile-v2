@@ -1,0 +1,6 @@
+[build.environment]
+  # Sharp install scripts run from portfolio/node_modules/sharp.
+  # Use official, checked-in Linux archives instead of GitHub release downloads.
+  npm_config_sharp_libvips_local_prebuilds = "../../vendor/sharp"
+  npm_config_sharp_local_prebuilds = "../../vendor/sharp"
+  SHARP_IGNORE_GLOBAL_LIBVIPS = "1"
