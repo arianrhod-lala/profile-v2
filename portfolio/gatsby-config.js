@@ -14,7 +14,7 @@ module.exports = {
       headers: [
         {
           key: `content-security-policy`,
-          value: `frame-ancestors 'self' https://ians-art-studio-portfolio.ardentpin24.chatgpt.site;`,
+          value: `frame-ancestors 'self' http://127.0.0.1:3000 https://ians-art-studio-portfolio.ardentpin24.chatgpt.site;`,
         },
         {
           // Modern browsers use frame-ancestors above instead of this fallback.
