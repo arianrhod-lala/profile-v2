@@ -78,26 +78,26 @@ const Projects = () => {
           </div>
         </article>
 
-        {/* gym management system */}
+        {/* hugo technology department ai chatbot management system */}
         <article className={styles.projectCard}>
           <div className={styles.projectContent}>
-            <h3>Gym Management System</h3>
+            <h3>Hugo AI Chatbot</h3>
             <p className={styles.tagline}>Fullstack</p>
             <p className={styles.description}>
-              Provided a system for a local gym within the city.
+              Developed a RAG-powered chatbot for the AWS Student Builder Group (AWSCC) website.
             </p>
             <div className={styles.techStack}>
-              <span>REACT</span>
-              <span>NODE</span>
+              <span>FastAPI</span>
+              <span>ML</span>
               <span>SUPABASE</span>
-              <span>VERCEL</span>
+              <span>PGVECTOR</span>
             </div>
             {/* project links */}
             <div className={styles.projectLinks}>
-              <a href="https://github.com/arianrhod-lala/gym-management" target="_blank" rel="noreferrer">
+              <a href="https://github.com/Hugo-Technology-Department/team-omega-project" target="_blank" rel="noreferrer">
                 <FiGithub />
               </a>
-              <a href="https://gym-management-red-tau.vercel.app/home" target="_blank" rel="noreferrer">
+              <a href="https://www.figma.com/design/5GkNc7BgAMRMRAmw3iw6pF/Untitled?node-id=0-1&p=f&t=6rngWOvs6lrV7q2Z-0" target="_blank" rel="noreferrer">
                 <FiExternalLink />
               </a>
             </div>
@@ -105,7 +105,7 @@ const Projects = () => {
           <div className={styles.projectImage}>
              {}
               <StaticImage 
-                src="../images/gym-management.png" 
+                src="../images/hugo.png" 
                 alt="Ian Lester"
                 placeholder="blurred"
                 className={styles.image}
