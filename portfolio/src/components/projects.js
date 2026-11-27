@@ -183,6 +183,41 @@ const Projects = () => {
           </div>
         </article>
       </div>
+
+      {/* cozy house */}
+        <article className={styles.projectCard}>
+          <div className={styles.projectContent}>
+            <h3>Cozy Shack</h3>
+            <p className={styles.tagline}>3D</p>
+            <p className={styles.description}>
+              Tried making a cozy room inspired by the game virtual cottage.
+            </p>
+            <div className={styles.techStack}>
+              <span>NEXTJS</span>
+              <span>REACT</span>
+              <span>THREEJS</span>
+              <span>JSX</span>
+            </div>
+            {/* project links */}
+            <div className={styles.projectLinks}>
+              <a href="https://github.com/arianrhod-lala/profile-v3" target="_blank" rel="noreferrer">
+                <FiGithub />
+              </a>
+              <a href="https://profileroom.netlify.app/" target="_blank" rel="noreferrer">
+                <FiExternalLink />
+              </a>
+            </div>
+          </div>
+          <div className={styles.projectImage}>
+             {}
+              <StaticImage 
+                src="../images/cozy.png" 
+                alt="Ian Lester"
+                placeholder="blurred"
+                className={styles.image}
+              />
+          </div>
+        </article>
     </section>
   )
 }
