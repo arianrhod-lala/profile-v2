@@ -182,7 +182,6 @@ const Projects = () => {
               />
           </div>
         </article>
-      </div>
 
       {/* cozy house */}
         <article className={styles.projectCard}>
@@ -218,6 +217,7 @@ const Projects = () => {
               />
           </div>
         </article>
+      </div>
     </section>
   )
 }
